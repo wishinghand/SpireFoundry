@@ -1,5 +1,5 @@
 {
-	"name": "spire",
+	"name": "SpireFoundry",
 	"title": "Spire le soulèvement",
 	"description" : "Le système pour jouer à Spire",
 	"author" : "Inu'tile,Eldorgath",
@@ -7,10 +7,10 @@
 	"minimumCoreVersion": "0.7.9",
 	"compatibleCoreVersion": "0.7.9",
 	"esmodules" :  [
-		"spire.js"
+		"SpireFoundry.js"
 	],
 	"style": [
-		"spire.css"
+		"SpireFoundry.css"
 	],
 	"packs": [
 	
@@ -19,5 +19,6 @@
 	
 	],
 	"gridDistance": 1.5,
-	"gridUnits": "m"
+	"gridUnits": "m",
+	"primaryTokenAttribute": "wounds"
 }
