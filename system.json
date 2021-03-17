@@ -2,8 +2,8 @@
 	"name": "SpireFoundry",
 	"title": "Spire le soulèvement",
 	"description" : "Le système pour jouer à Spire",
-	"author" : "Inu'tile,Eldorgath",
-	"version" : 0.01,
+	"author" : "Inu'tile,Eldorgath,Solegane",
+	"version" : "0.0.1",
 	"minimumCoreVersion": "0.7.9",
 	"compatibleCoreVersion": "0.7.9",
 	"esmodules" :  [
@@ -19,6 +19,5 @@
 	
 	],
 	"gridDistance": 1.5,
-	"gridUnits": "m",
-	"primaryTokenAttribute": "wounds"
+	"gridUnits": "m"
 }
