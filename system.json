@@ -1,0 +1,23 @@
+{
+	"name": "spire",
+	"title": "Spire le soulèvement",
+	"description" : "Le système pour jouer à Spire",
+	"author" : "Inu'tile,Eldorgath",
+	"version" : 0.01,
+	"minimumCoreVersion": "0.7.9",
+	"compatibleCoreVersion": "0.7.9",
+	"esmodules" :  [
+		"spire.js"
+	],
+	"style": [
+		"spire.css"
+	],
+	"packs": [
+	
+	],
+	"languages": [
+	
+	],
+	"gridDistance": 1.5,
+	"gridUnits": "m"
+}
