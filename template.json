@@ -1,12 +1,12 @@
 {
 	"Actor": 
 	{
-		"type": ["character"],
+		"type": ["player"],
 		"templates": 
 		{
 			"common":
 			{
-				"Skill" : 
+				"Skill": 
 				{
 					"Compel": {"value": false},
 					"Deceive": {"value": false},
@@ -17,7 +17,63 @@
 					"Resist": {"value": false},
 					"Sneak": {"value": false},
 					"Steal": {"value": false}
-				}
+				},
+				"Domain": 
+				{
+					"Academia": {"value": false},
+					"Crime": {"value": false},
+					"Commerce": {"value": false},
+					"High Society": {"value": false},
+					"Low Society": {"value": false},
+					"Occult": {"value": false},
+					"Order": {"value": false},
+					"Religion": {"value": false},
+					"Technology": {"value": false}
+				},
+				"Stress"  : 
+				{
+					"Total" : 0,
+					"Resistance" :
+					{
+						"Blood" : 
+						{
+							"FreeSlots" : 0,
+							"CurrentStress" : 0
+						},
+						"Mind" : 
+						{
+							"FreeSlots" : 0,
+							"CurrentStress" : 0
+						},
+						"Silver" : 
+						{
+							"FreeSlots" : 0,
+							"CurrentStress" : 0
+						},
+						"Shadow" : 
+						{
+							"FreeSlots" : 0,
+							"CurrentStress" : 0
+						},
+						"Reputation" : 
+						{
+							"FreeSlots" : 0,
+							"CurrentStress" : 0
+						},
+						"Armor" : 
+						{
+							"FreeSlots" : 0,
+							"CurrentStress" : 0
+						}
+					}
+				},
+			"Refresh": ""
+
+			}
+		},
+		"character": 
+		{
+			"templates": ["common"]
 		}
 	},
 	"Item" : 
