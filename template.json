@@ -32,7 +32,6 @@
 				},
 				"Stress"  : 
 				{
-					"Total" : 0,
 					"Resistance" :
 					{
 						"Blood" : 
@@ -70,7 +69,7 @@
 			"Refresh": ""
 			}
 		},
-		"character": 
+		"player": 
 		{
 			"templates": ["common"]
 		}
