@@ -1,6 +1,53 @@
 {
 	"Actor": 
-	{},
+	{
+		"type": ["character"],
+		"templates": 
+		{
+			"base":
+			{
+				"skills":
+				{
+					"compel": 
+					{
+						"value": false
+					},
+					"deceive":
+					{ 
+						"value": false
+					},
+					"fight":
+					{
+						"value": false
+					},
+					"fix":
+					{
+						"value": false
+					},
+					"investigate":
+					{
+						"value": false
+					},
+					"pursue":
+					{
+						"value": false
+					},
+					"resist":
+					{
+						"value": false
+					},
+					"sneak":
+					{
+						"value": false
+					},
+					"steal":
+					{
+						"value": false
+					}
+				}
+			}
+		}
+	},
 	"Item" : 
 	{}
 }
