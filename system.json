@@ -7,10 +7,10 @@
 	"minimumCoreVersion": "0.7.9",
 	"compatibleCoreVersion": "0.7.9",
 	"esmodules" :  [
-		"SpireFoundry.js"
+		"spirefoundry.js"
 	],
 	"style": [
-		"SpireFoundry.css"
+		"spirefoundry.css"
 	],
 	"packs": [
 	
