@@ -4,48 +4,20 @@
 		"type": ["character"],
 		"templates": 
 		{
-			"base":
+			"common":
 			{
-				"skills":
+				"Skill" : 
 				{
-					"compel": 
-					{
-						"value": false
-					},
-					"deceive":
-					{ 
-						"value": false
-					},
-					"fight":
-					{
-						"value": false
-					},
-					"fix":
-					{
-						"value": false
-					},
-					"investigate":
-					{
-						"value": false
-					},
-					"pursue":
-					{
-						"value": false
-					},
-					"resist":
-					{
-						"value": false
-					},
-					"sneak":
-					{
-						"value": false
-					},
-					"steal":
-					{
-						"value": false
-					}
+					"Compel": {"value": false},
+					"Deceive": {"value": false},
+					"Fight": {"value": false},
+					"Fix": {"value": false},
+					"Investigate": {"value": false},
+					"Pursue": {"value": false},
+					"Resist": {"value": false},
+					"Sneak": {"value": false},
+					"Steal": {"value": false}
 				}
-			}
 		}
 	},
 	"Item" : 
