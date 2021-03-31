@@ -15,7 +15,6 @@
       const actorData = this.data;
       const data = actorData.data;
       const flags = actorData.flags;
-  
       // Make separate methods for each Actor type (character, npc, etc.) to keep
       // things organized.
       if (actorData.type === 'player') this._prepareCharacterData(actorData);
@@ -28,7 +27,12 @@
         const data = actorData.data;
     
         // Make modifications to data here. For example:
-        // TODO doing stress calculation
+        // Stress calculation
+        var totalStress = 0;
+        for (let [key, stressName] of Object.entries(data.Stress.Resistance)) {
+          totalStress += stressName.CurrentStress;
+        }
+        data.Stress.TotalStress = totalStress;
     }
   
   }
