@@ -1,16 +1,16 @@
 {
-	"name": "SpireFoundry",
-	"title": "Spire le soulèvement",
-	"description" : "Le système pour jouer à Spire",
-	"author" : "Inu'tile,Eldorgath,Solegane",
+	"name": "spire",
+	"title": "Spire - The City Must Fall",
+	"description" : "A system for Rowan, Rook, and Decard's Spire RPG",
+	"author" : "Inu'tile, Eldorgath, Solegane, Jason Land",
 	"version" : "0.0.1",
 	"minimumCoreVersion": "0.7.9",
 	"compatibleCoreVersion": "0.7.9",
 	"esmodules" :  [
-		"spirefoundry.js"
+		"spire.js"
 	],
 	"style": [
-		"spirefoundry.css"
+		"spire.css"
 	],
 	"packs": [
 	
@@ -28,5 +28,6 @@
 		}
 	],
 	"gridDistance": 1.5,
-	"gridUnits": "m"
+	"gridUnits": "m",
+	"primaryTokenAttribute": "resistedStress"
 }

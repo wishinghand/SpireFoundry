@@ -1,66 +1,53 @@
 {
-	"Actor": 
-	{
-		"types": ["player"],
-		"templates": 
-		{
-			"common":
-			{
-				"Skill": 
-				{
-					"Compel": {"value": false},
-					"Deceive": {"value": false},
-					"Fight": {"value": false},
-					"Fix": {"value": false},
-					"Investigate": {"value": false},
-					"Pursue": {"value": false},
-					"Resist": {"value": false},
-					"Sneak": {"value": false},
-					"Steal": {"value": false}
+	"Actor": {
+		"types": ["player", "NPC"],
+		"templates": {
+			"common": {
+				"Skill": {
+					"Compel": { "value": false },
+					"Deceive": { "value": false },
+					"Fight": { "value": false },
+					"Fix": { "value": false },
+					"Investigate": { "value": false },
+					"Pursue": { "value": false },
+					"Resist": { "value": false },
+					"Sneak": { "value": false },
+					"Steal": { "value": false }
 				},
-				"Domain": 
-				{
-					"Academia": {"value": false},
-					"Crime": {"value": false},
-					"Commerce": {"value": false},
-					"High Society": {"value": false},
-					"Low Society": {"value": false},
-					"Occult": {"value": false},
-					"Order": {"value": false},
-					"Religion": {"value": false},
-					"Technology": {"value": false}
+				"Domain": {
+					"Academia": { "value": false },
+					"Crime": { "value": false },
+					"Commerce": { "value": false },
+					"High Society": { "value": false },
+					"Low Society": { "value": false },
+					"Occult": { "value": false },
+					"Order": { "value": false },
+					"Religion": { "value": false },
+					"Technology": { "value": false }
 				},
-				"Stress"  : 
-				{
-					"Resistance" :
-					{
-						"Blood" : 
-						{
+				"Stress": {
+					"Resistance": {
+						"Blood": {
 							"FreeSlots" : 0,
 							"CurrentStress" : 0
 						},
-						"Mind" : 
-						{
+						"Mind": {
 							"FreeSlots" : 0,
 							"CurrentStress" : 0
 						},
-						"Silver" : 
-						{
+						"Silver": {
 							"FreeSlots" : 0,
 							"CurrentStress" : 0
 						},
-						"Shadow" : 
-						{
+						"Shadow": {
 							"FreeSlots" : 0,
 							"CurrentStress" : 0
 						},
-						"Reputation" : 
-						{
+						"Reputation": {
 							"FreeSlots" : 0,
 							"CurrentStress" : 0
 						},
-						"Armor" : 
-						{
+						"Armor": {
 							"FreeSlots" : 0,
 							"CurrentStress" : 0
 						}
@@ -69,11 +56,20 @@
 			"Refresh": ""
 			}
 		},
-		"player": 
-		{
+		"player": {
 			"templates": ["common"]
 		}
 	},
-	"Item" : 
-	{}
+	"Item": {
+		"types": ["weapon", "equipment"],
+		"weapon": {
+			"stress": 3,
+			"tags": [] 
+		},
+		"equipment": {
+			"cost": 0,
+			"negativeAspect": "",
+			"positiveAspect": "",
+		}
+	}
 }
